@@ -1,0 +1,44 @@
+.institution {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left!important;
+}
+
+.institution > div {
+    padding: 0px 120px 0px 120px;
+}
+
+.institution_header {
+    color: #003e7b;
+    font-family: Roboto, sans-serif;
+}
+
+.institution_header > p {
+    font-size: 1em!important;
+    font-weight: 400!important;
+    color: #000000!important;
+}
+
+.institution_link {
+    text-decoration: none !important;
+    color: grey;
+}
+
+h2 {
+    color: #003e7b;
+    font-weight: 450;
+}
+
+.institution_body > div {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+.presidents_info {
+    font-size: 1em!important;
+    font-weight: 500!important;
+    color: #000000!important;
+    margin-bottom: 25px;
+}

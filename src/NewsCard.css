@@ -1,0 +1,20 @@
+.news_card {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.news_card_image {
+    display: flex;
+    width: 30vw;
+    
+}
+
+.news_card_image > img {
+    max-width: 90%;
+    max-height: 90%;
+}
+.news_card_info {
+    width: 60vw;
+    margin-top: -25px;
+}

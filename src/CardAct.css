@@ -1,0 +1,25 @@
+ .card_act {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    height: 50vh;
+}
+ 
+ .card_act > img {
+    height: 40vh;
+} 
+
+.card_nom > h3 {
+    bottom: 0;
+    border: none!important;
+    padding: 10px 15px 10px 15px!important;
+    margin: 0px!important;
+    background-color: #0f427d!important;
+    color: #fff!important;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+

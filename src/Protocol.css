@@ -1,0 +1,9 @@
+.protocol {
+    display:flex;
+}
+
+.protocol > img {
+    height: 80%;
+    width: 100vw;
+}
+

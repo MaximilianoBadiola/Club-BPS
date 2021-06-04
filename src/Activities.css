@@ -1,0 +1,42 @@
+.activities {
+    display: flex;
+    flex-direction: column;
+    text-align: left!important;
+}
+
+.activities > div {
+    padding: 0px 120px 0px 120px;
+}
+
+.activities_header {
+    color: #003e7b;
+    font-family: Roboto, sans-serif;
+}
+
+.activities_header > p {
+    font-size: 1em!important;
+    font-weight: 400!important;
+    color: #000000!important;
+}
+
+.activitie_link {
+    text-decoration: none !important;
+    color: grey;
+}
+
+.activitie_body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activitie_body > img {
+    max-width: 70%;
+    max-height: 30%;
+}
+
+.activities_schedule > a {
+    color: black;
+    cursor: pointer;
+}
