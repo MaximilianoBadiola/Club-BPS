@@ -36,9 +36,6 @@
 }
 
 .news_grid {
-/*     display: flex;
-    flex-wrap: wrap;
-     */
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -48,6 +45,6 @@
 .news_grid_item {
     display: flex;
     justify-content: center;
-    width: 40vw;    
+    width: 38vw;    
 }
 

@@ -6,7 +6,7 @@
 }
 
 .contact > div {
-    padding: 0px 120px 0px 120px;
+    padding: 0px 40px 0px 40px;
 }
 
 .contact_header {
@@ -26,18 +26,17 @@
     color: grey;
 }
 
-
 .contact_form {
     display: flex;
     justify-content: space-between;
     color:#003e7b;
-    width: 70vw;
+    width: 80vw;
 }
 
 .contact_data {
     display: flex;
     flex-direction: column;
-    width: 80%;    
+    width: 100%;    
 }
 
 .contact_data > div {
@@ -53,12 +52,11 @@ label {
 textarea {
     background-color: #f9fafc;
     border-color: rgba(0,62,123,0.15);
-    width: 35vw;
+    width: 40vw;
 }
 
 .contact_info {
-    width: 32%;
-    
+    width: 40%;
 }
 
 .contact_info > h3 {
@@ -170,10 +168,11 @@ button {
 .contact_info_data {
     border: 1px solid;
     border-color: rgba(0,62,123,0.15);
-    padding: 10px;
+    padding: 10px 0px 20px 15px;
+    width: 20vw;
 }
 
-.contact_info_data > h3{
+.contact_info_data > h3 {
     font-weight: 400;
 }
 
@@ -181,6 +180,7 @@ button {
     text-decoration: none !important;
     color: grey;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .contact_info_socialMedia {
@@ -195,4 +195,14 @@ button {
     font-size: 60px;
     cursor: pointer;
     padding-left: 30px;
+}
+
+.contact_info_data > p > .MuiSvgIcon-root {
+    font-size: 18px;    
+    padding-right: 5px;
+}
+
+.contact_info_data > a > .MuiSvgIcon-root {
+    font-size: 18px;
+    padding-right: 5px;
 }

@@ -3,6 +3,9 @@ import Map from './Map';
 import SocialMedia from './SocialMedia'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import { Link } from "react-router-dom";
+import PhoneIcon from '@material-ui/icons/Phone';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
 import './Contact.css'
 
 function Contact() {
@@ -75,10 +78,10 @@ function Contact() {
 
                     <div className="contact_info_data">
                         <h3>Mercedes 1723, Montevideo</h3>
-                        <p>2401 0302</p>
-                        <a>contacto@clubbps.com.uy</a>
-                        <p>LUN - VIE: 7:00 - 22:30</p>
-                        <p>SÁBADO: 8:00 - 21:00</p>
+                        <p><PhoneIcon /> 2401 0302</p>
+                        <a><MailOutlineIcon /> contacto@clubbps.com.uy</a>
+                        <p><QueryBuilderIcon /> LUN - VIE: 7:00 - 22:30</p>
+                        <p><QueryBuilderIcon /> SÁBADO: 8:00 - 21:00</p>
                     </div>
 
                     <h3>SÍGUENOS EN NUESTRAS REDES</h3>
