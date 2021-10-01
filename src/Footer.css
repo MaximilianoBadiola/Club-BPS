@@ -12,6 +12,8 @@
     margin-top: 20px;
 }
 
+
+
 .footer_info {
     text-align: left!important;
     margin-left: 120px!important;
@@ -47,4 +49,5 @@
     cursor: pointer;
     cursor: pointer !important;
     font: 100;
+    cursor: pointer;
 }
