@@ -47,4 +47,5 @@
 
 .mail {
     cursor: pointer;
+    cursor: pointer !important;
 }
