@@ -48,5 +48,6 @@
 .mail {
     cursor: pointer;
     cursor: pointer !important;
+    font: 100;
     cursor: pointer;
 }
